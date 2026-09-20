@@ -1,6 +1,6 @@
-import {schema,model,Types} from "mongoose"
+import {Schema,model,Types} from "mongoose"
 
-const applicationSchema = new mongoose.Schema(
+const applicationSchema = new Schema(
   {
     job: {
       type:[Types.ObjectId],
